@@ -1,5 +1,5 @@
 {
-    "name": "- KCL Final",
+    "name": "~: - KCL Final :",
     "description": "",
     "dependencies": {
         "device": "*",
@@ -19,7 +19,7 @@
         "test.ts"
     ],
     "targetVersions": {
-        "target": "1.11.37",
+        "target": "1.12.17",
         "targetId": "arcade"
     },
     "supportedTargets": [
