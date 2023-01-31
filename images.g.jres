@@ -9,13 +9,6 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "myImage1"
     },
-    "anim2": {
-        "namespace": "myAnimations",
-        "id": "anim2",
-        "mimeType": "application/mkcd-animation",
-        "data": "YzgwMDEwMDAxMDAwMDEwMDk5MTkxMTkxOTkxMTk5OTkxOTExMTE5MTk5MTExMTkxMTkxMTExOTk5OTExMTk5OTk5OTk5MTE5MTE5OTk5OTk5OTkxOTk5OTExNzE3Nzc3OTk5OTk5OTk5OTc5Nzc3Nzk5OTk5OTk5OTk3OTc3Nzc5OTk5OTk5OTk5Nzk3Nzc3OTk5OTk5OTk3Nzk3ZTk5OTk5OTk5OTk5Nzc5N2U5OTk5OTk5OTk5OTc3OTdlOTk5OTk5OTk5OTllOTk5ZTk5OTk5OTk5OTk5ZTk5OWU5OTk3Nzc3Nzc3Nzc3Nzc3Nzc3ZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWVlZWU=",
-        "displayName": "myAnim0"
-    },
     "anim1": {
         "namespace": "myAnimations",
         "id": "anim1",

@@ -151,25 +151,6 @@ ddddd77777777777777777777777777777777777ddddd77777777777777777777777777777777777
 
     helpers._registerFactory("animation", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "myAnim0":
-            case "anim2":return [img`
-9 9 9 1 1 1 1 9 9 9 1 1 9 9 9 9 
-9 1 1 1 1 1 1 9 9 9 1 1 1 1 1 9 
-9 1 1 1 1 1 9 9 9 9 1 1 9 1 9 9 
-9 9 9 9 1 9 9 1 1 1 9 9 9 9 9 9 
-9 9 1 9 9 9 9 9 1 1 1 7 7 7 7 7 
-9 9 9 9 9 9 9 9 9 9 9 7 7 7 7 7 
-9 9 9 9 9 9 9 9 9 9 9 7 7 7 7 7 
-9 9 9 9 9 9 9 9 9 9 9 7 7 7 7 7 
-9 9 9 9 9 9 9 9 7 7 7 9 9 e 9 9 
-9 9 9 9 9 9 9 9 7 7 7 9 9 e 9 9 
-9 9 9 9 9 9 9 9 7 7 7 9 9 e 9 9 
-9 9 9 9 9 9 9 9 9 e 9 9 9 e 9 9 
-9 9 9 9 9 9 9 9 9 e 9 9 9 e 9 9 
-7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 7 
-e e e e e e e e e e e e e e e e 
-e e e e e e e e e e e e e e e e 
-`];
             case "coinAnimation":
             case "anim1":return [img`
 . . . . . . . . . . . . . . . . 
