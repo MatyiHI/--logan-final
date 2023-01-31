@@ -1,4 +1,4 @@
-sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
+' sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSprite) {
     otherSprite.destroy()
     KCL.sayText(":)", 1000, true)
     info.changeScoreBy(1)
