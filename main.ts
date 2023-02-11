@@ -183,12 +183,11 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
         true
         )
         coin7.setPosition(230, 10)
+        gameLevel = 1
     } else if (gameLevel == 1) {
-        otherSprite.destroy()
-        KCL.sayText(":)", 1000, true)
-        info.changeScoreBy(1)
+    	
     } else if (gameLevel == 2) {
-        tiles.setCurrentTilemap(tilemap`level 7`)
+    	
     } else if (false) {
     	
     } else {
