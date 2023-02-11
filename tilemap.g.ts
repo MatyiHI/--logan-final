@@ -5,9 +5,11 @@ namespace myTiles {
     //% fixedInstance jres blockIdentity=images._tile
     export const tile3 = image.ofBuffer(hex``);
     //% fixedInstance jres blockIdentity=images._tile
-    export const tile2 = image.ofBuffer(hex``);
-    //% fixedInstance jres blockIdentity=images._tile
     export const tile4 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile1 = image.ofBuffer(hex``);
+    //% fixedInstance jres blockIdentity=images._tile
+    export const tile2 = image.ofBuffer(hex``);
 
     helpers._registerFactory("tilemap", function(name: string) {
         switch(helpers.stringTrim(name)) {
@@ -239,6 +241,44 @@ namespace myTiles {
 . . . . . . . . . . . . . . . . 
 . . . . . . . . . . . . . . . . 
 `, [myTiles.transparency16,sprites.dungeon.darkGroundWest,sprites.dungeon.darkGroundSouthWest0,sprites.dungeon.darkGroundSouth,sprites.dungeon.darkGroundSouthEast0,sprites.dungeon.darkGroundEast,sprites.dungeon.darkGroundNorth,sprites.dungeon.darkGroundNorthEast0,sprites.dungeon.darkGroundNorthWest0,sprites.dungeon.darkGroundCenter,sprites.dungeon.greenSwitchUp,sprites.dungeon.hazardLava1,sprites.dungeon.stairSouth,sprites.builtin.coral5,sprites.dungeon.floorLight0,sprites.castle.rock0], TileScale.Sixteen);
+            case "levelmp":
+            case "levelmp1":return tiles.createTilemap(hex`1000100002020303030303030303030303030303020203030303030301030303030303030202020202020302020302010101030302020202020202020202020203020303020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020202020302020202020202020202020202020202020202020202020202020202020202010101030301030102020202020202010103010301010301030102020202020103030101030101010301020303020201030301010301010103020103030202010303010303030303030203030302010303030303030303030302030303`, img`
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+. . . . . . . . . . . . . . . . 
+`, [myTiles.transparency16,myTiles.tile3,myTiles.tile2,sprites.dungeon.darkGroundCenter], TileScale.Sixteen);
+            case "level J":
+            case "level J1":return tiles.createTilemap(hex`1000100002020202020202010101020202020202010101010101020101010201010101010202020202010201010102010102020201010101020102010101020101020101010101010201020202020201030201010102020202010101010102010102010101020101010102020201020101020101010202020202020102010201010201010101010101020202020102010102010101020202020201010101020101020101010201010101010201020201010202010102010202020202010101020101020101020102010101010101010201010201010201020102020202020202010102010102010101010101010101010101020101020202020202020202020202020201`, img`
+. . . . . . . 2 2 2 . . . . . . 
+2 2 2 2 2 2 . 2 2 2 . 2 2 2 2 2 
+. . . . . 2 . 2 2 2 . 2 2 . . . 
+2 2 2 2 . 2 . 2 2 2 . 2 2 . 2 2 
+2 2 2 2 . 2 . . . . . 2 2 . 2 2 
+2 . . . . 2 2 2 2 2 . 2 2 . 2 2 
+2 . 2 2 2 2 . . . 2 . 2 2 . 2 2 
+2 . . . . . . 2 . 2 . 2 2 . 2 2 
+2 2 2 2 2 . . . . 2 . 2 2 . 2 2 
+2 . . . . . 2 2 2 2 . 2 2 . 2 2 
+2 . 2 2 2 2 2 . 2 . . 2 2 . . 2 
+2 . 2 . . . . . 2 2 2 . 2 2 . 2 
+2 . 2 . 2 2 2 2 2 2 2 . 2 2 . 2 
+2 . 2 . 2 . . . . . . . 2 2 . 2 
+2 . 2 2 2 2 2 2 2 2 2 2 2 2 . 2 
+2 . . . . . . . . . . . . . . 2 
+`, [myTiles.transparency16,sprites.dungeon.darkGroundCenter,sprites.dungeon.collectibleRedCrystal,sprites.dungeon.darkGroundNorth], TileScale.Sixteen);
         }
         return null;
     })
@@ -248,10 +288,12 @@ namespace myTiles {
             case "transparency16":return transparency16;
             case "myTile1":
             case "tile3":return tile3;
-            case "myTile0":
-            case "tile2":return tile2;
             case "myTile2":
             case "tile4":return tile4;
+            case "myTile":
+            case "tile1":return tile1;
+            case "myTile0 l":
+            case "tile2":return tile2;
         }
         return null;
     })

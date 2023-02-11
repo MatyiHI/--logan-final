@@ -10,17 +10,23 @@
         "tilemapTile": true,
         "displayName": "myTile1"
     },
-    "tile2": {
-        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-        "mimeType": "image/x-mkcd-f4",
-        "tilemapTile": true,
-        "displayName": "myTile0"
-    },
     "tile4": {
         "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
         "mimeType": "image/x-mkcd-f4",
         "tilemapTile": true,
         "displayName": "myTile2"
+    },
+    "tile1": {
+        "data": "hwQQABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile"
+    },
+    "tile2": {
+        "data": "hwQQABAAAACIiIhmZmZmaWaIiIhmiJlphmiIiIiYmZmGiGZmiIiZmWaIaGZmZmZphmiGiIiIiGaGaIaIiJmZaYaIaGaGmWaZZoiIiGhmhplpiIiIiIiWaZaZiGhmlmlmZmaZmYiImZmZmZmZiIiImWaZmZmZiJlmZoiIiJlmmWmIiIiIZpaZmQ==",
+        "mimeType": "image/x-mkcd-f4",
+        "tilemapTile": true,
+        "displayName": "myTile0 l"
     },
     "level2": {
         "id": "level2",
@@ -190,6 +196,30 @@
             "sprites.castle.rock0"
         ],
         "displayName": "level 7"
+    },
+    "levelmp1": {
+        "id": "levelmp1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAyMDIwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDMwMzAzMDIwMjAzMDMwMzAzMDMwMzAxMDMwMzAzMDMwMzAzMDMwMjAyMDIwMjAyMDIwMzAyMDIwMzAyMDEwMTAxMDMwMzAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAzMDIwMzAzMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMzAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDEwMTAxMDMwMzAxMDMwMTAyMDIwMjAyMDIwMjAyMDEwMTAzMDEwMzAxMDEwMzAxMDMwMTAyMDIwMjAyMDIwMTAzMDMwMTAxMDMwMTAxMDEwMzAxMDIwMzAzMDIwMjAxMDMwMzAxMDEwMzAxMDEwMTAzMDIwMTAzMDMwMjAyMDEwMzAzMDEwMzAzMDMwMzAzMDMwMjAzMDMwMzAyMDEwMzAzMDMwMzAzMDMwMzAzMDMwMzAyMDMwMzAzMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "myTiles.tile3",
+            "myTiles.tile2",
+            "sprites.dungeon.darkGroundCenter"
+        ],
+        "displayName": "levelmp"
+    },
+    "level J1": {
+        "id": "level J1",
+        "mimeType": "application/mkcd-tilemap",
+        "data": "MTAxMDAwMTAwMDAyMDIwMjAyMDIwMjAyMDEwMTAxMDIwMjAyMDIwMjAyMDEwMTAxMDEwMTAxMDIwMTAxMDEwMjAxMDEwMTAxMDEwMjAyMDIwMjAyMDEwMjAxMDEwMTAyMDEwMTAyMDIwMjAxMDEwMTAxMDIwMTAyMDEwMTAxMDIwMTAxMDIwMTAxMDEwMTAxMDEwMjAxMDIwMjAyMDIwMjAxMDMwMjAxMDEwMTAyMDIwMjAyMDEwMTAxMDEwMTAyMDEwMTAyMDEwMTAxMDIwMTAxMDEwMTAyMDIwMjAxMDIwMTAxMDIwMTAxMDEwMjAyMDIwMjAyMDIwMTAyMDEwMjAxMDEwMjAxMDEwMTAxMDEwMTAxMDIwMjAyMDIwMTAyMDEwMTAyMDEwMTAxMDIwMjAyMDIwMjAxMDEwMTAxMDIwMTAxMDIwMTAxMDEwMjAxMDEwMTAxMDEwMjAxMDIwMjAxMDEwMjAyMDEwMTAyMDEwMjAyMDIwMjAyMDEwMTAxMDIwMTAxMDIwMTAxMDIwMTAyMDEwMTAxMDEwMTAxMDEwMjAxMDEwMjAxMDEwMjAxMDIwMTAyMDIwMjAyMDIwMjAyMDEwMTAyMDEwMTAyMDEwMTAxMDEwMTAxMDEwMTAxMDEwMTAxMDIwMTAxMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAyMDIwMjAxMDAwMDAwMjAyMjAwMDAwMDIyMjIyMjIwMjIyMDIyMjIwMDAwMjAyMDIyMjAwMjAwMjIyMjIwMjAyMjIwMDIyMjIyMjIyMDAwMDAyMDAyMjIwMjAwMjAyMjIyMjAwMjIyMDIyMjIyMDAyMDIwMDIyMjAyMDAwMDIwMjAyMDAyMjIyMjIyMDIwMDIwMjAwMjIyMDIwMDAwMjIyMjIwMDIyMjAyMjIyMjAyMDIyMDAyMjAwMjAyMDAwMDIyMDIyMjIwMDIwMjIyMjIyMjAyMjIyMDAyMDIwMjAwMDAwMDIyMjAwMjIyMjIyMjIyMjIyMjIwMDIwMDAwMDAwMDAwMDAyMA==",
+        "tileset": [
+            "myTiles.transparency16",
+            "sprites.dungeon.darkGroundCenter",
+            "sprites.dungeon.collectibleRedCrystal",
+            "sprites.dungeon.darkGroundNorth"
+        ],
+        "displayName": "level J"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
