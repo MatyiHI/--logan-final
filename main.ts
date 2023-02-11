@@ -187,8 +187,8 @@ sprites.onOverlap(SpriteKind.Player, SpriteKind.Food, function (sprite, otherSpr
         otherSprite.destroy()
         KCL.sayText(":)", 1000, true)
         info.changeScoreBy(1)
-    } else if (false) {
-    	
+    } else if (gameLevel == 2) {
+        tiles.setCurrentTilemap(tilemap`level 7`)
     } else if (false) {
     	
     } else {
