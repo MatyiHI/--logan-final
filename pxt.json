@@ -1,5 +1,5 @@
 {
-    "name": "KCL Final",
+    "name": "KCL Final - Copy",
     "version": "1.0.0",
     "description": "",
     "dependencies": {
@@ -26,5 +26,5 @@
     "supportedTargets": [
         "arcade"
     ],
-    "preferredEditor": "blocksprj"
+    "preferredEditor": "tsprj"
 }
